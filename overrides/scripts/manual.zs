@@ -21,6 +21,8 @@ recipes.addShaped(<biomesoplenty:gem_block:6>, [[<biomesoplenty:gem:6>, <biomeso
 recipes.addShapeless(<biomesoplenty:gem:6> * 9, [<biomesoplenty:gem_block:6>]);
 recipes.addShapeless(<biomesoplenty:gem:6>, [<pixelmon:sapphire>]);
 recipes.addShapeless(<pixelmon:sapphire>, [<biomesoplenty:gem:6>]);
+recipes.addShaped(<pixelmon:silver_bottle_cap>, [[<thermalfoundation:storage:2>, <thermalfoundation:storage:2>, <thermalfoundation:storage:2>], [<thermalfoundation:storage:2>, <biomesoplenty:terrestrial_artifact>, <thermalfoundation:storage:2>], [<thermalfoundation:storage:2>, <thermalfoundation:storage:2>, <thermalfoundation:storage:2>]]);
+recipes.addShaped(<pixelmon:gold_bottle_cap>, [[<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>], [<minecraft:gold_block>, <pixelmon:silver_bottle_cap>, <minecraft:gold_block>], [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]]);
 
 // Pam's Harvestcraft + Pixelmon
 recipes.addShapeless(<pixelmon:swift_feather>, [<harvestcraft:cottoncandyitem>,<harvestcraft:cornedbeefbreakfastitem>,<harvestcraft:raspberrytrifleitem>]);
